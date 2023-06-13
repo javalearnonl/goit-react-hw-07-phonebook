@@ -1,0 +1,28 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  gap: 19px;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+.button_delete {
+  padding: 10px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  margin-left: 10px;
+  background-color: rgb(234, 164, 164);
+  transition: ease-out 0.3s;
+}
+.button_delete:hover,
+.button_delete:focus {
+  background-color: rgb(246, 83, 83);
+  transition: ease-in 0.3s;
+}
+.listall {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
